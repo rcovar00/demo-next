@@ -3,16 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Tema Azul Oceánico - Modo Claro */
+  --foreground-rgb: 15, 23, 42;
+  --background-start-rgb: 224, 242, 254;
+  --background-end-rgb: 240, 249, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* Tema Azul Oceánico - Modo Oscuro */
+    --foreground-rgb: 186, 230, 253;
+    --background-start-rgb: 12, 74, 110;
+    --background-end-rgb: 15, 23, 42;
   }
 }
 
